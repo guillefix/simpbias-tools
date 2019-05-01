@@ -1,0 +1,7 @@
+#!/bin/bash
+
+for i in `seq 0 25`
+do
+	addqueue -c "few hours" -m 3 ./run_combine_freq $(($i*100000)) $((($i+1)*100000))
+done
+

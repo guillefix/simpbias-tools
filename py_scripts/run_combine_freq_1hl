@@ -1,0 +1,5 @@
+#!/bin/bash
+export PYTHONPATH=~/.local/lib/
+
+
+python combine_freqs_1hl.py $1 $2 $3

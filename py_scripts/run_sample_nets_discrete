@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for i in `seq $1 $2`
+do
+python3 sample_nets_discrete_weights.py $i 
+done

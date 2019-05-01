@@ -1,0 +1,5 @@
+#!/bin/bash
+
+module load gcc/5.4.0
+
+python3 CSR_bias_CIFAR_CNN_test2.py

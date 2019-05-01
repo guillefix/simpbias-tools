@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python3 logPU_sample_nets.py 20000 10 2 1.0 1.0
